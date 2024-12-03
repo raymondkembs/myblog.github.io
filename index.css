@@ -1233,7 +1233,39 @@ body{
     .box6 .itemthree{
         padding: 2px;
     }
+    .box6 .itemthree ul li{
+        padding-left: 0%;
+        text-align: center;
+    }
     .box6 .itemthree ul li i{
         display: none; 
+    }
+    .box6 .itemfour .threeterms ul li{
+        width: 100%;
+        margin: 0;
+        font-size: 17px;
+        padding-left: 0;
+    }
+    .box6 .itemfour .threeform input{
+        margin: 15px;
+        width: 100%
+    }
+    .box6 .itemfour .threeform button{
+        width: 100%;
+    }
+    .box6 .itemfour .threeform form{
+        margin: 0;
+        width: 100%;
+        flex-direction: column;
+        /* background: green; */
+    }
+    .box6 .itemfour .threecontent{
+        /* background: blue; */
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .box6 .itemfour > div{
+        padding: 0;
     }
 }
